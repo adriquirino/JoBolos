@@ -1,2 +1,2 @@
-# J-Bolos
+# Jo-Bolos
 Sistema de Agendamento e Compra de Kits de Festa
