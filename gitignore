@@ -1,0 +1,41 @@
+# Jó Bolos - Sistema de Agendamento de Kit Festas
+# .gitignore
+
+# ===============================================
+# BACKEND (Node.js/Express)
+# ===============================================
+
+# Variáveis de ambiente (IMPORTANTE!)
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# ===============================================
+# FRONTEND (React.js)
+# ===============================================
+
+# Variáveis de ambiente
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ===============================================
+# OBSERVAÇÕES IMPORTANTES
+# ===============================================
+
+# ❗ NUNCA COMMITAR:
+# - Senhas ou tokens de API
+# - Chaves privadas
+# - Dados sensíveis de clientes
+# - Configurações de produção com dados reais
+# - Backups de banco de dados com dados reais
+
+# ✅ SEMPRE COMMITAR:
+# - Arquivo .env.example (sem dados reais)
+# - Estruturas de banco (migrations)
+# - Documentação
+# - Testes
